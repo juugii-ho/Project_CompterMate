@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error, mean_absolute_percentage_error, r2_score
 
-def total_prep(data, TRAIN=False):
+def init_prep(data, TRAIN=False):
     """데이터 전처리 함수
     ver_01 2024.05.20. 
     ver_02 2024.05.26.
@@ -27,6 +27,7 @@ def total_prep(data, TRAIN=False):
         data = data[data['k_rpm_pv'] > 100]
 
         # (3) n_temp_sv != 0
+        # - 이거 의미 없는데?
         data = data[data['n_temp_sv'] != 0]
         
         # (4) E_scr_pv != 7
