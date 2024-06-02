@@ -76,10 +76,12 @@
 
 ### 분석
 
-1. 중량 예측 모델의 편차값을 측정한 결과, 평균이 -0.1로 부정확한 수치를 보임. 사용 중인 linear regression 기준이며, random forest와 lightgbm도 동일한 오차를 보임.
+1. 중량 예측 모델의 편차값을 측정한 결과, 평균이 -0.1로 부정확한 수치를 보임. 사용 중인 linear regression 기준이며,  
+   random forest와 lightgbm도 동일한 오차를 보임.
+   
    ![alt text](image-4.png)
 
-2. 해당 모델의 성적 :
+3. 해당 모델의 성적 :
    ```python
    Final Test - Linear Regression MAE: 0.0009103039918948051, MAPE: 0.02880019210423469
    Final Test - Random Forest MAE: 0.0010451038655071077, MAPE: 0.03306669498185942
