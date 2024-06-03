@@ -1,0 +1,16 @@
+Modeling/Project/JJW/DATA/바웰공정데이터.csv
+Modeling/DATA/바웰공정데이터.csv
+Modeling/Project/JJW/DATA/raw_2023051820231018_경대기업맞춤형.csv
+Modeling/JJW/DATA/raw_2023051820231018_경대기업맞춤형.csv
+Modeling/JJW/DATA/
+Modeling/LSMin/data/공정데이터 추가자료.csv
+Modeling/LSMin/data/mydata2_final.csv
+Modeling/LSMin/data/
+
+## 데이터가 포함된 폴더 무시
+data/
+
+##
+*.csv
+
+Modeling/LSMin/LookAtThis/
